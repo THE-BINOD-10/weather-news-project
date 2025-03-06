@@ -1,10 +1,27 @@
-To run the frontend endpoints:
+To Run the Frontend Endpoints
+Install the necessary dependencies:
+
 npm install
+Start the development server:
+
 npm run dev
-http://localhost:5173/weather/
-http://localhost:5173/news/
+Access the frontend endpoints in your browser:
+
+Weather page: http://localhost:5173/weather/
+News page: http://localhost:5173/news/
 
 
-To run backend endpoint:
+To Run the Backend Endpoint
+Install the required dependencies:
+
 pip install -r requirements.dev.txt
-http://127.0.0.1:8000/api/weather/current/
+
+Start the Django development server:
+
+python manage.py runserver
+
+
+Access the backend weather API endpoint:
+
+Current weather API: http://127.0.0.1:8000/api/weather/current/
+
